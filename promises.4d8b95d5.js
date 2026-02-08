@@ -1,0 +1,2 @@
+let e=[{name:"Mango",active:!0},{name:"Poly",active:!1},{name:"Ajax",active:!0},{name:"Lux",active:!1}];e[0].active,e[1].active,e[2].active,e[3].active;let a=!0,t=(e,t)=>new Promise(n=>{n(e.map(e=>e.name!==t?e:a===e.active?(a=!1,{...e,active:!1}):(a=!0,{...e,active:!0})))}),n=e=>console.table(e);t(e,"Mango").then(n),t(e,"Mango").then(n),t(e,"Mango").then(n);
+//# sourceMappingURL=promises.4d8b95d5.js.map
